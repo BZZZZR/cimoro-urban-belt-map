@@ -1,0 +1,31 @@
+<PROJECT_GRAPH>
+    <MODULE name="MapApp">
+        <INTENT>Render interactive world map with city classes, bilingual UI, and per-city store dropdowns.</INTENT>
+        <FILES>
+            <FILE path="cimoro-urban-belt-map/index.html">
+                <CLASSES>App Shell</CLASSES>
+                <CRITICAL_ANCHORS>START_BLOCK_APP_SHELL</CRITICAL_ANCHORS>
+            </FILE>
+            <FILE path="cimoro-urban-belt-map/src/app.js">
+                <CLASSES>AppController</CLASSES>
+                <CRITICAL_ANCHORS>START_BLOCK_BOOTSTRAP_APP, START_BLOCK_BIND_FILTERS, START_BLOCK_BIND_LANGUAGE_SWITCH</CRITICAL_ANCHORS>
+            </FILE>
+            <FILE path="cimoro-urban-belt-map/src/map.js">
+                <CLASSES>MapRenderer</CLASSES>
+                <CRITICAL_ANCHORS>START_BLOCK_POPUP_UTIL, START_BLOCK_RENDER_STORES_DROPDOWN, START_BLOCK_REFRESH_POPUPS</CRITICAL_ANCHORS>
+            </FILE>
+            <FILE path="cimoro-urban-belt-map/src/data.js">
+                <CLASSES>DataProvider</CLASSES>
+                <CRITICAL_ANCHORS>START_BLOCK_I18N_DICTIONARY, START_BLOCK_CLASS_DEFS, START_BLOCK_CITY_DATA</CRITICAL_ANCHORS>
+            </FILE>
+            <FILE path="cimoro-urban-belt-map/styles/main.css">
+                <CLASSES>VisualTheme</CLASSES>
+                <CRITICAL_ANCHORS>START_BLOCK_THEME_TOKENS, START_BLOCK_LAYOUT, START_BLOCK_LANGUAGE_SWITCH, START_BLOCK_POPUP_DROPDOWN</CRITICAL_ANCHORS>
+            </FILE>
+            <FILE path="cimoro-urban-belt-map/README.md">
+                <CLASSES>Runbook</CLASSES>
+                <CRITICAL_ANCHORS>START_BLOCK_RUN_INSTRUCTIONS</CRITICAL_ANCHORS>
+            </FILE>
+        </FILES>
+    </MODULE>
+</PROJECT_GRAPH>
